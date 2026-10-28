@@ -1,0 +1,16 @@
+{
+  "_comment": "Screen coordinates for test_hang.py navigation, calibrated to the author's windowed layout (window at x=970 on a wide monitor). Recalibrate for your own resolution and window position: play_button = the main-menu button, center = a neutral click target, sequence = the click-through that reaches the garden.",
+  "window": {"x": 970, "y": 20, "w": 940, "h": 1020},
+  "play_button": {"x": 1790, "y": 986},
+  "center": {"x": 1440, "y": 570},
+  "sequence": [
+    {"action": "click", "target": "play_button", "wait_after_ms": 15000},
+    {"action": "click", "target": "center", "wait_after_ms": 2000},
+    {"action": "click", "target": "center", "wait_after_ms": 2000},
+    {"action": "click", "target": "center", "wait_after_ms": 2000},
+    {"action": "key", "key": "S", "wait_after_ms": 2000},
+    {"action": "click", "target": "center", "wait_after_ms": 2000},
+    {"action": "click", "target": "center", "wait_after_ms": 2000}
+  ],
+  "garden_wait_ms": 15000
+}

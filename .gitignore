@@ -1,0 +1,38 @@
+# Game assets — never commit these
+*.pkg
+*.bnl
+*.bin
+*.glb
+*.xwb
+*.str
+assets/
+game/
+*.backup
+
+# Extracted / decompiled game source — reference only, not ours to ship
+*.cpp
+*.h
+retip*
+*.pdb
+*.exe
+*.dll
+
+# Session / temp / local
+__pycache__/
+*.pyc
+*.pyo
+.env
+.vscode/
+.idea/
+*.log
+BACKUP_*/
+dumps/
+screenshots/
+Blender_export/
+*.zip
+*.7z
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
